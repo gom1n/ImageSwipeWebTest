@@ -2,6 +2,17 @@
 <html>
 <head>
     <title>KVL Test</title>
+    <style>
+        h1 {
+            margin-left: 20px;
+        }
+        h2 {
+            margin-left: 20px;
+        }
+        p {
+            margin-left: 20px;
+        }
+    </style>
     <!-- 이미지 슬라이더 라이브러리 swiper  -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -10,29 +21,53 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">요금제 서비스</a></li>
+                <li><a href="#">유심</a></li>
+                <li><a href="#">셀프개통</a></li>
+                <li><a href="#">고객지원</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <!-- 웹 페이지의 Contents -->
-        <h1>Hello, World!</h1>
-        <p>This is a sample web page with a top navigation bar.</p>
+        <h1>셀프개통 前(전) 확인해주세요😉</h1>
+        <h2>1. 가입고객 정보, 통신비 결제 정보를 입력해주세요.</h2>
+        <p>- 신분증 (주민등록증, 운전면허증, 장애인등록증 또는 국가유공자증), 본인인증 정보 (신용카드 또는 간편인증)</p>
+        <h2>2. 번호이동일 경우 아래 항목 중 하나의 정보를 준비해주세요.</h2>
+        <p>- 현재 통신사 통신비 납부정보 필요 (신용카드 번호 또는 자동이체 계좌번호 또는 지로)</p>
+        <p>※ 휴대폰으로 [셀프개통]을 하면서, 번호이동으로 가입할 경우 꼭 Wi-Fi 환경에서 진행해주세요.</p>
     </main>
     <!-- 이미지 슬라이더 -->
     <div class="swiper-container">
+        <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="image1.jpg" alt="Image 1"></div>
-            <div class="swiper-slide"><img src="image2.jpg" alt="Image 2"></div>
-            <div class="swiper-slide"><img src="image3.jpg" alt="Image 3"></div>
+            <div class="swiper-slide"><img src="https://github.com/gom1n/ImageSwipeWebTest/assets/87636557/ca2940bd-4aa9-45b9-9bca-6e267bd291b7" alt="Image 1"></div>
+            <div class="swiper-slide"><img src="https://github.com/gom1n/ImageSwipeWebTest/assets/87636557/fd22bfc0-b173-447d-bd38-d082cb3963a9" alt="Image 2"></div>
+            <div class="swiper-slide"><img src="https://github.com/gom1n/ImageSwipeWebTest/assets/87636557/9fad3cfb-c48d-4128-afb2-1da70077d212" alt="Image 3"></div>
+            <div class="swiper-slide"><img src="https://github.com/gom1n/ImageSwipeWebTest/assets/87636557/000dcf42-02f4-4b80-b9a6-b36629ccdba3" alt="Image 4"></div>
         </div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
+    <!-- 셀프개통 하러 가기 버튼 -->
+    <div class="container">
+        <button class="customButton">셀프개통 하러 가기!</button>
+    </div>
+    
+    <!-- 회사 정보-->
+    <footer>
+        <div class="company-info">
+            <img src="https://github.com/gom1n/ImageSwipeWebTest/assets/87636557/e53dd370-6264-4d39-b130-c85a6d395d7e" alt="Logo">
+            <p>서울 영등포구 은행로 3 (여의도동, 익스콘벤처타워)익스콘벤처타워8층
+            <p>대표이사 : 조정일ㅣ 사업자등록번호 : 109-81-53365</p>
+            <p>통신판매신고번호 : 제 1호-01-20-0035호</p>
+            
+            <h1 class="support">고객센터</h1>
+            <h1 class="phone">1811-6825</h1>
+            <p class="desciption">평일 : 09:00 ~ 18:00 점심시간 : 12:00 ~ 13:00 주말/공휴일 휴무</p>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
